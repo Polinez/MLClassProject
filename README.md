@@ -1,28 +1,28 @@
-# Przewidywanie Wyników Studentów
+# Predicting Student Performance
 
-## O Projekcie
-Niniejsze repozytorium zawiera projekt zaliczeniowy zrealizowany w ramach naszych pierwszych zajęć z przedmiotu Uczenie Maszynowe na studiach. Przeszliśmy w nim przez cały proces analizy danych oraz budowy modeli predykcyjnych od początku aż do wyciągnięcia biznesowych wniosków. Głównym celem było zbadanie, jakie czynniki mają największy wpływ na końcowe oceny studentów.
+## About the Project
+This repository contains the final project completed as part of our first Machine Learning course at university. In it, we went through the entire process of data analysis and building predictive models, from the very beginning to drawing business conclusions. The main goal was to investigate which factors have the greatest impact on students' final grades.
 
-## Czego się nauczyliśmy?
-Jako że były to nasze pierwsze kroki w tej dziedzinie, projekt pozwolił nam na praktyczne opanowanie wielu kluczowych koncepcji:
+## What Did We Learn?
+Since these were our first steps in this field, the project allowed us to practically master many key concepts:
 
-* **Eksploracja i czyszczenie danych:** Zrozumieliśmy, jak ważne jest przygotowanie informacji przed podaniem ich do modelu. Nauczyliśmy się obsługi braków, zamiany wartości tekstowych na liczbowe (LabelEncoder, OneHotEncoder) oraz standaryzacji (StandardScaler).
-* **Balansowanie zbioru:** Poznaliśmy techniki radzenia sobie z nierównymi klasami za pomocą metod takich jak SMOTE oraz RandomUnderSampler.
-* **Budowa modeli:** Zbudowaliśmy i porównaliśmy działanie kilku podstawowych algorytmów klasyfikacji i regresji (między innymi: Regresja Logistyczna, Algorytm Najbliższych Sąsiadów, Maszyny Wektorów Nośnych).
-* **Ocena skuteczności:** Zamiast ślepo ufać wynikom, nauczyliśmy się korzystać z metryk takich jak dokładność (accuracy), precyzja, czułość oraz czytać macierz pomyłek.
-* **Wizualizacja:** Wykorzystaliśmy biblioteki Matplotlib oraz Seaborn do tworzenia czytelnych wykresów ułatwiających zrozumienie relacji w danych.
+* **Data exploration and cleaning:** We understood how important it is to prepare information before feeding it to a model. We learned how to handle missing values, convert text values to numerical ones (LabelEncoder, OneHotEncoder), and standardize data (StandardScaler).
+* **Dataset balancing:** We learned techniques for dealing with imbalanced classes using methods such as SMOTE and RandomUnderSampler.
+* **Building models:** We built and compared the performance of several basic classification and regression algorithms (including Logistic Regression, K Nearest Neighbors, and Support Vector Machines).
+* **Performance evaluation:** Instead of blindly trusting the results, we learned to use metrics such as accuracy, precision, and recall, as well as how to read a confusion matrix.
+* **Visualization:** We used Matplotlib and Seaborn libraries to create clear charts that help understand the relationships in the data.
 
-## Zbiór Danych
-Analizie poddano zestaw informacji o studentach zawierający 2392 wiersze i 13 kolumn. Przeanalizowaliśmy takie zmienne jak wiek, płeć, wykształcenie rodziców, czas spędzany na nauce w tygodniu, liczba nieobecności oraz zaangażowanie w zajęcia pozalekcyjne.
+## Dataset
+The analysis was performed on a dataset of student information containing 2392 rows and 13 columns. We analyzed variables such as age, gender, parents' education, time spent studying per week, number of absences, and involvement in extracurricular activities.
 
-## Jak uruchomić projekt?
-Aby odtworzyć nasze wyniki na własnym komputerze, wykonaj poniższe kroki.
+## How to Run the Project?
+To reproduce our results on your own computer, follow the steps below.
 
-1. Pobierz pliki z tego repozytorium na swój dysk.
-2. Upewnij się, że masz zainstalowane wszystkie wymagane biblioteki. Możesz zainstalować je wewnątrz swojego środowiska za pomocą terminala:
+1. Download the files from this repository to your local drive.
+2. Make sure you have all the required libraries installed. You can install them inside your environment using the terminal:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Uruchom plik notatnika `UM_Wandzel_Walus_Adamiak_Szymczyk.ipynb` w swoim ulubionym edytorze kodu (na przykład Jupyter Notebook, VS Code lub PyCharm) i wykonuj komórki jedna po drugiej.
+3. Run the `UM_Wandzel_Walus_Adamiak_Szymczyk.ipynb` notebook file in your favorite code editor (for example, Jupyter Notebook, VS Code, or PyCharm) and execute the cells one by one.
